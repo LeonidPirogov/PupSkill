@@ -27,6 +27,7 @@ class FeedingViewController: UIViewController, UITextFieldDelegate {
         setupInputs()
         setupAccessoryBars()
         setupHideKeyboardGesture()
+        title = "Daily Meal Portions"
     }
     
     private func setupInputs() {
